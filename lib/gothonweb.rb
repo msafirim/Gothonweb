@@ -6,6 +6,7 @@ require "erb"
 module Gothonweb
   get '/' do
    greeting = "Hello, World!"
-   erb :index, :locals => {:greeting => greeting}
+  # erb :index, :locals => {:greeting => greeting}
+   erb :foo, :locals => {:greeting => greeting}
   end
 end
