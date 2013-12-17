@@ -11,7 +11,9 @@ module Gothonweb
 
   get '/hello' do
     name = params[:name] || "Nobody"
-    greeting = "Hello, #{name}"
+    greet = params[:greet]
+    # greeting = "Hello, #{name}"
+    greeting = "#{greet}, #{name}"
     erb :index, :locals => {:greeting => greeting}
   end
 end
