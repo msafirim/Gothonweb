@@ -10,10 +10,11 @@ module Gothonweb
   end
 
   get '/hello' do
-    name = params[:name] || "Nobody"
-    greet = params[:greet]
-    # greeting = "Hello, #{name}"
-    greeting = "#{greet}, #{name}"
+    erb :hello_form
+  end
+
+  post '/hello' do
+    greeting = "#{params[:greet] || "Hello"}, #{params[:name] || "Nobody"}"
     erb :index, :locals => {:greeting => greeting}
   end
 end
