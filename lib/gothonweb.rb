@@ -1,3 +1,5 @@
+gem 'sinatra', '1.3.6'
+
 require_relative "gothonweb/version"
 require_relative "map"
 require "sinatra"
