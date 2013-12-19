@@ -8,12 +8,12 @@ Gem::Specification.new do |spec|
   spec.version       = Gothonweb::VERSION
   spec.authors       = ["Moses Msafiri"]
   spec.email         = ["mssmsfr@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Gothonweb project}
+  spec.summary       = %q{sinatra, rack}
   spec.homepage      = ""
   spec.license       = "MIT"
 
-  spec.files         = 'git ls-files'.split($/)
+  spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
