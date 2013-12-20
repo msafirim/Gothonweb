@@ -1,3 +1,3 @@
 $stdout.sync = true
-require './lib/gothonweb'
+require_relative './lib/gothonweb'
 run Sinatra::Application
