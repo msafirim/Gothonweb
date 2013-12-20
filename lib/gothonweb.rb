@@ -1,11 +1,11 @@
-gem 'sinatra', '1.3.6'
+#gem 'sinatra', '1.3.6'
 
 require_relative "gothonweb/version"
 require_relative "map"
 require "sinatra"
 require "erb"
 
-module Gothonweb
+#module Gothonweb
 
   use Rack::Session::Pool
 
@@ -34,4 +34,4 @@ module Gothonweb
     redirect("/game")
   end
 
-end
+#end
