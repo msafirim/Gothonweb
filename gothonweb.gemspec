@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Moses Msafiri"]
   spec.email         = ["mssmsfr@gmail.com"]
   spec.description   = %q{Gothonweb project}
-  spec.summary       = %q{sinatra, rack}
+  spec.summary       = %q{sinatra and rack}
   spec.homepage      = ""
   spec.license       = "MIT"
 
