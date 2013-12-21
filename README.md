@@ -1,24 +1,29 @@
 # Gothonweb
 
-TODO: Write a gem description
+originates from "learn ruby the hard way"
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'gothonweb'
+    gem 'sinatra'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
-    $ gem install gothonweb
+    $ gem install sinatra
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Download ZIP
+2. Unzip Gothonweb-master
+3. Open command terminal
+4. Go to Gothonweb-master, `cd lib`
+5. Run `ruby gothonweb.rb`
+6. Open in your browser `http://localhost:4567` or `http://127.0.0.1:4567`
 
 ## Contributing
 
