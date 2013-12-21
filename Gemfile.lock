@@ -1,15 +1,9 @@
-PATH
-  remote: .
-  specs:
-    gothonweb (0.0.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
-    rake (10.1.1)
     sinatra (1.4.4)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -20,8 +14,4 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bundler
-  gothonweb!
-  rack
-  rake
   sinatra
