@@ -34,4 +34,4 @@ Or install it yourself as:
 5. Create new Pull Request 
 
 [1]: http://salty-scrubland-7004.herokuapp.com/
-Visit `[Gothonweb][1]` to view gothonweb app
+Visit [Gothonweb][1] to view gothonweb app
